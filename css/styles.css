@@ -1,0 +1,224 @@
+/*основний колір #212121
+вторинний колір 2196F3, FFFFFF*/
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #E5E5E5;
+    --white-standart: #FFFFFF;
+    --dark-white: #F5F4FA;
+    --dark-backround: #2F303A;
+}
+
+.body {
+    color: #212121;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+    font-family: Roboto, sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+}
+
+.header-white {
+    background: var(--white-standart);
+}
+
+/* site nav*/
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav .link {
+    color: var(--title-text-color)
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.link {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 14;
+    text-decoration: none;
+    float: none;
+    color: var(--primary-text-color);
+}
+
+.baner {
+    background-color: var(--dark-backround);
+}
+
+.main-title {
+    color: var(--white-standart);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1, 36;
+    text-align: center;
+    padding: 200px 452px 280px 452px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button {
+    color: var(--white-standart);
+    border-radius: 4px;
+    background-color: var(--accent-color);
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.section-list {
+    background-color: var(--white-standart);
+    letter-spacing: 0.03em;
+}
+
+.second-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1, 16;
+    text-align: center;
+}
+
+.team {
+    background-color: var(--dark-white)
+}
+
+.title-list {
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1, 14;
+    font-family: Roboto, sans-serif;
+
+    @font-face {
+        font-family: Roboto, sans-serif;
+        src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    }
+
+    text-transform: uppercase;
+}
+
+.list-text {
+    color: var(--title-text-color);
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1, 7;
+    font-family: Roboto, sans-serif;
+
+    @font-face {
+        font-family: Roboto, sans-serif;
+        src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    }
+}
+
+.team-list-text {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1, 18;
+}
+
+.team-title-list {
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1, 18;
+}
+
+.title {
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1, 19;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.title-black {
+    color: #000000;
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1, 19;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: var(--dark-backround)
+}
+
+.adress {
+    color: var(--white-standart);
+    font-size: 14px;
+    line-height: 1, 7;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+}
+
+.adress-links {
+    font-style: normal
+}
+
+.footer .connect:hover,
+.footer :focus {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+.connect {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+
+    @font-face {
+        font-family: Roboto;
+        src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+        </style>;
+    }
+}
+
+.button-list {
+    color: var(--white-standart);
+    border-radius: 4px;
+    background-color: var(--dark-white);
+    width: 128px;
+    height: 38px;
+    left: 576px;
+    top: 174px;
+    border: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+.button-list {
+    color: var(--primary-text-color)
+}
+
+.button-list:hover,
+.button-list:focus {
+    background-color: var(--accent-color);
+    cursor: pointer;
+    color: var(--white-standart);
+}
