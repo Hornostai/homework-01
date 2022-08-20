@@ -8,17 +8,19 @@
     --white-standart: #FFFFFF;
     --dark-white: #F5F4FA;
     --dark-backround: #2F303A;
+    --main-font: "Roboto",sans-selif; src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    --secondary-font:"Raleway",sant-selif;src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 }
-
+ul {
+    list-style: none;
+}
 .body {
     color: #212121;
     background-color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
-    font-family: Raleway, sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-    font-family: Roboto, sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    font-family: var(--main-font);
+    font-family: var(--secondary-font);
 }
 
 .header-white {
@@ -45,7 +47,7 @@
 }
 
 .link {
-    font-family: Roboto, sans-serif;
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1, 14;
@@ -80,6 +82,7 @@
     top: 430px;
     border: 0px;
     cursor: pointer;
+    font-family: inherit;
 }
 
 .section-list {
@@ -105,13 +108,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 1, 14;
-    font-family: Roboto, sans-serif;
-
-    @font-face {
-        font-family: Roboto, sans-serif;
-        src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-    }
-
+    font-family: var(--main-font);
     text-transform: uppercase;
 }
 
@@ -121,12 +118,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 1, 7;
-    font-family: Roboto, sans-serif;
-
-    @font-face {
-        font-family: Roboto, sans-serif;
-        src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-    }
+    font-family: var(--main-font);
 }
 
 .team-list-text {
@@ -145,27 +137,24 @@
 
 .title {
     color: var(--accent-color);
-    font-family: Raleway, sans-serif;
+    font-family: var(--secondary-font);
     font-size: 26px;
     line-height: 1, 19;
     text-decoration: none;
     text-transform: uppercase;
+    font-style: normal;
 }
 
 .title-black {
     color: #000000;
-    font-family: Raleway, sans-serif;
+    font-family: var(--secondary-font);
     font-size: 26px;
     line-height: 1, 19;
     text-decoration: none;
     text-transform: uppercase;
+    font-style: normal;
 }
-
-ul {
-    list-style: none;
-}
-
-.footer {
+footer {
     background-color: var(--dark-backround)
 }
 
@@ -174,16 +163,17 @@ ul {
     font-size: 14px;
     line-height: 1, 7;
     cursor: pointer;
-    font-family: Roboto, sans-serif;
+    font-family: var(--main-font);
     text-decoration: none;
+    font-style: normal;
 }
 
 .adress-links {
-    font-style: normal
+    font-style: normal;
 }
 
-.footer .connect:hover,
-.footer :focus {
+footer .connect:hover,
+footer .connect:focus {
     color: var(--accent-color);
     cursor: pointer;
 }
@@ -191,13 +181,8 @@ ul {
 .connect {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    font-family: Roboto, sans-serif;
-
-    @font-face {
-        font-family: Roboto;
-        src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-        </style>;
-    }
+    font-family: var(--main-font);
+    font-style: normal;
 }
 
 .button-list {
@@ -209,11 +194,9 @@ ul {
     left: 576px;
     top: 174px;
     border: 0px;
-    font-family: Roboto, sans-serif;
-}
-
-.button-list {
-    color: var(--primary-text-color)
+    font-family: var(--main-font);
+    color: var(--primary-text-color);
+    font-style: normal;
 }
 
 .button-list:hover,
